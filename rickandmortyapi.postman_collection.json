@@ -1,0 +1,412 @@
+{
+	"info": {
+		"_postman_id": "973a89ee-b81a-4abb-98cf-47adf5983c60",
+		"name": "rickandmortyapi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "31084177"
+	},
+	"item": [
+		{
+			"name": "ALL character",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "appid",
+						"value": "7c1c78e09ef55e96fe41d57b590481eb",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://rickandmortyapi.com/api/character/",
+					"protocol": "https",
+					"host": [
+						"rickandmortyapi",
+						"com"
+					],
+					"path": [
+						"api",
+						"character",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "character {num}",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://rickandmortyapi.com/api/character/4",
+					"protocol": "https",
+					"host": [
+						"rickandmortyapi",
+						"com"
+					],
+					"path": [
+						"api",
+						"character",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "character {name}",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://rickandmortyapi.com/api/character/?name=Albert Einstein",
+					"protocol": "https",
+					"host": [
+						"rickandmortyapi",
+						"com"
+					],
+					"path": [
+						"api",
+						"character",
+						""
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Albert Einstein"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ALL episode",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://rickandmortyapi.com/api/episode/",
+					"protocol": "https",
+					"host": [
+						"rickandmortyapi",
+						"com"
+					],
+					"path": [
+						"api",
+						"episode",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "episode {num}",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://rickandmortyapi.com/api/episode/12",
+					"protocol": "https",
+					"host": [
+						"rickandmortyapi",
+						"com"
+					],
+					"path": [
+						"api",
+						"episode",
+						"12"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "episode {SOEO}",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://rickandmortyapi.com/api/episode/?episode=S02E03\n",
+					"protocol": "https",
+					"host": [
+						"rickandmortyapi",
+						"com"
+					],
+					"path": [
+						"api",
+						"episode",
+						""
+					],
+					"query": [
+						{
+							"key": "episode",
+							"value": "S02E03\n"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "epizode {filter}",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://rickandmortyapi.com/api/episode/12,23",
+					"protocol": "https",
+					"host": [
+						"rickandmortyapi",
+						"com"
+					],
+					"path": [
+						"api",
+						"episode",
+						"12,23"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "episode {name}",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://rickandmortyapi.com/api/episode/?name=Auto Erotic Assimilation",
+					"protocol": "https",
+					"host": [
+						"rickandmortyapi",
+						"com"
+					],
+					"path": [
+						"api",
+						"episode",
+						""
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Auto Erotic Assimilation"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ALL location",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://rickandmortyapi.com/api/location/",
+					"protocol": "https",
+					"host": [
+						"rickandmortyapi",
+						"com"
+					],
+					"path": [
+						"api",
+						"location",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "location {num}",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://rickandmortyapi.com/api/location/24",
+					"protocol": "https",
+					"host": [
+						"rickandmortyapi",
+						"com"
+					],
+					"path": [
+						"api",
+						"location",
+						"24"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "location {id}",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://rickandmortyapi.com/api/location/62",
+					"protocol": "https",
+					"host": [
+						"rickandmortyapi",
+						"com"
+					],
+					"path": [
+						"api",
+						"location",
+						"62"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ALL page",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://rickandmortyapi.com/api/episode/?page\n",
+					"protocol": "https",
+					"host": [
+						"rickandmortyapi",
+						"com"
+					],
+					"path": [
+						"api",
+						"episode",
+						""
+					],
+					"query": [
+						{
+							"key": "page\n",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "page {num}",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://rickandmortyapi.com/api/episode/?page=3\n",
+					"protocol": "https",
+					"host": [
+						"rickandmortyapi",
+						"com"
+					],
+					"path": [
+						"api",
+						"episode",
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "3\n"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "page {filter}",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://rickandmortyapi.com/api/episode/?page=3,5\n",
+					"protocol": "https",
+					"host": [
+						"rickandmortyapi",
+						"com"
+					],
+					"path": [
+						"api",
+						"episode",
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "3,5\n"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "filter ",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://rickandmortyapi.com/api/episode/?name=Pilot&episode=S01E01\n",
+					"protocol": "https",
+					"host": [
+						"rickandmortyapi",
+						"com"
+					],
+					"path": [
+						"api",
+						"episode",
+						""
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Pilot"
+						},
+						{
+							"key": "episode",
+							"value": "S01E01\n"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "combo filter ",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://rickandmortyapi.com/api/episode/?name=Pilot&episode=S01E01&page=1\n\n",
+					"protocol": "https",
+					"host": [
+						"rickandmortyapi",
+						"com"
+					],
+					"path": [
+						"api",
+						"episode",
+						""
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Pilot"
+						},
+						{
+							"key": "episode",
+							"value": "S01E01"
+						},
+						{
+							"key": "page",
+							"value": "1\n\n"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
