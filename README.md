@@ -1,4 +1,4 @@
-![Alt text](images/.jpg)
+![Alt text](images/Rick-Morty-Logo-1-640x360.jpg)
 
 
 
