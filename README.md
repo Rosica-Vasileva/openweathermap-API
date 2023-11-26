@@ -1,3 +1,9 @@
+![Alt text](images/.jpg)
+
+
+
+
+
 # Rick and Morty API Examples
 
 ## 1. Get a list of all characters
